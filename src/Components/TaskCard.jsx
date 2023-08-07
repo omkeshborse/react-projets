@@ -1,5 +1,5 @@
 import React from "react";
-
+import './taskCard.css'
 const TaskCard = ({ task , handleDelete , info }) => {
   return (
     <li  className={task.completed ? "completed" : "incomplete"} >

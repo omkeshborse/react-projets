@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import TaskCard from "./TaskCard";
 import BoxCard from "./BoxCard";
+import './taskList.css'
 const TaskList = () => {
   const [tasks, setTasks] = useState([
     { id: 555, name: "playing game", completed: false },
